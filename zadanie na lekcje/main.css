@@ -1,0 +1,99 @@
+body {
+    margin:0;
+}
+
+
+#menu {
+    background-color: #2B75C6;
+    width:280px;
+    height:1000px;
+    float:left;
+    padding-top:80px;
+    position: fixed;
+    
+}
+#naglowek {
+    background-color: white;
+    height:200px;
+    width:auto;
+    text-align: center;
+}
+#logo {width:500px;
+        margin-left:250px;}
+ul {list-style-type: none;
+    margin:0;
+    padding:0;
+    }
+li, a {
+    border-style: outset;
+    border-width: 0;
+    margin:auto;
+    margin-top:25px;
+    width: 200px;
+    height:35px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    line-height:35px;
+    font-family:'Times New Roman';
+    background-color: #FF9D04;
+    border-radius: 30px;
+}
+a:hover {
+    color:#2B75C6;
+    font-size:20px;
+}
+a:active {color:#2B75C6;
+    font-size:20px;}
+#content {
+    background-color: #ff9D04;
+    width: auto;   
+    margin-left:280px;
+    height:800px;
+}
+#footer {
+    width:auto;
+    background-color: lightgrey;
+    text-align: center;
+    font-size:10px;
+    color:#714E66;
+    font-weight: bold;
+    height:50px;
+    margin-left:250px;
+}
+#kartka1 {
+    padding-left:25px;
+    position: absolute;
+    padding-top:25px;
+}
+#kartka2 {
+    padding-left:350px;
+    padding-top:25px;
+    position: absolute;
+}
+#kartka3 {
+    padding-left:675px;
+    padding-top:25px;
+    position: absolute;
+}
+#lekcje, #lekcje2, #lekcje3 {
+    color:black;
+    font-size:25px;
+    position: absolute;
+    font-family: cursive;
+}
+#lekcje {
+    padding-top:125px;
+    transform: rotate(9deg);
+    padding-left:100px;
+}
+#lekcje2 {
+    padding-top:105px;
+    transform: rotate(9deg);
+    padding-left:420px;
+}
+#lekcje3 {
+    padding-top:80px;
+    transform: rotate(9deg);
+    padding-left:740px;
+}
